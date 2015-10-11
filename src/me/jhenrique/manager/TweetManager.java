@@ -98,6 +98,7 @@ public class TweetManager {
 					Date date = new Date(dateMs);
 					
 					Tweet t = new Tweet(usernameTweet, txt, date, retweets, favorites);
+					//System.out.println(t.getUsername()+','+t.getRetweets()+','+t.getText());
 					results.add(t);
 				}
 			}
